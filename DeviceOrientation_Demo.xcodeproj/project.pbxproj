@@ -13,6 +13,12 @@
 		84BE57551F14A9D800FD2033 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BE57531F14A9D800FD2033 /* Main.storyboard */; };
 		84BE57571F14A9D800FD2033 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BE57561F14A9D800FD2033 /* Assets.xcassets */; };
 		84BE575A1F14A9D800FD2033 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BE57581F14A9D800FD2033 /* LaunchScreen.storyboard */; };
+		84BE57641F14BA8300FD2033 /* DeviceOrientationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE57621F14BA8300FD2033 /* DeviceOrientationViewController.m */; };
+		84BE57651F14BA8300FD2033 /* DeviceOrientationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BE57631F14BA8300FD2033 /* DeviceOrientationViewController.xib */; };
+		84BE57691F14BAE200FD2033 /* InterfaceOrientationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE57671F14BAE200FD2033 /* InterfaceOrientationViewController.m */; };
+		84BE576A1F14BAE200FD2033 /* InterfaceOrientationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BE57681F14BAE200FD2033 /* InterfaceOrientationViewController.xib */; };
+		84BE576E1F14BB5000FD2033 /* InterfaceMaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE576C1F14BB5000FD2033 /* InterfaceMaskViewController.m */; };
+		84BE576F1F14BB5000FD2033 /* InterfaceMaskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BE576D1F14BB5000FD2033 /* InterfaceMaskViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,15 @@
 		84BE57561F14A9D800FD2033 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84BE57591F14A9D800FD2033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84BE575B1F14A9D800FD2033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BE57611F14BA8300FD2033 /* DeviceOrientationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceOrientationViewController.h; sourceTree = "<group>"; };
+		84BE57621F14BA8300FD2033 /* DeviceOrientationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceOrientationViewController.m; sourceTree = "<group>"; };
+		84BE57631F14BA8300FD2033 /* DeviceOrientationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeviceOrientationViewController.xib; sourceTree = "<group>"; };
+		84BE57661F14BAE200FD2033 /* InterfaceOrientationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceOrientationViewController.h; sourceTree = "<group>"; };
+		84BE57671F14BAE200FD2033 /* InterfaceOrientationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterfaceOrientationViewController.m; sourceTree = "<group>"; };
+		84BE57681F14BAE200FD2033 /* InterfaceOrientationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InterfaceOrientationViewController.xib; sourceTree = "<group>"; };
+		84BE576B1F14BB5000FD2033 /* InterfaceMaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceMaskViewController.h; sourceTree = "<group>"; };
+		84BE576C1F14BB5000FD2033 /* InterfaceMaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterfaceMaskViewController.m; sourceTree = "<group>"; };
+		84BE576D1F14BB5000FD2033 /* InterfaceMaskViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InterfaceMaskViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +77,15 @@
 				84BE574E1F14A9D800FD2033 /* AppDelegate.m */,
 				84BE57501F14A9D800FD2033 /* ViewController.h */,
 				84BE57511F14A9D800FD2033 /* ViewController.m */,
+				84BE57611F14BA8300FD2033 /* DeviceOrientationViewController.h */,
+				84BE57621F14BA8300FD2033 /* DeviceOrientationViewController.m */,
+				84BE57631F14BA8300FD2033 /* DeviceOrientationViewController.xib */,
+				84BE57661F14BAE200FD2033 /* InterfaceOrientationViewController.h */,
+				84BE57671F14BAE200FD2033 /* InterfaceOrientationViewController.m */,
+				84BE57681F14BAE200FD2033 /* InterfaceOrientationViewController.xib */,
+				84BE576B1F14BB5000FD2033 /* InterfaceMaskViewController.h */,
+				84BE576C1F14BB5000FD2033 /* InterfaceMaskViewController.m */,
+				84BE576D1F14BB5000FD2033 /* InterfaceMaskViewController.xib */,
 				84BE57531F14A9D800FD2033 /* Main.storyboard */,
 				84BE57561F14A9D800FD2033 /* Assets.xcassets */,
 				84BE57581F14A9D800FD2033 /* LaunchScreen.storyboard */,
@@ -141,6 +165,9 @@
 				84BE575A1F14A9D800FD2033 /* LaunchScreen.storyboard in Resources */,
 				84BE57571F14A9D800FD2033 /* Assets.xcassets in Resources */,
 				84BE57551F14A9D800FD2033 /* Main.storyboard in Resources */,
+				84BE576A1F14BAE200FD2033 /* InterfaceOrientationViewController.xib in Resources */,
+				84BE576F1F14BB5000FD2033 /* InterfaceMaskViewController.xib in Resources */,
+				84BE57651F14BA8300FD2033 /* DeviceOrientationViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +179,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				84BE57521F14A9D800FD2033 /* ViewController.m in Sources */,
+				84BE57691F14BAE200FD2033 /* InterfaceOrientationViewController.m in Sources */,
+				84BE57641F14BA8300FD2033 /* DeviceOrientationViewController.m in Sources */,
 				84BE574F1F14A9D800FD2033 /* AppDelegate.m in Sources */,
+				84BE576E1F14BB5000FD2033 /* InterfaceMaskViewController.m in Sources */,
 				84BE574C1F14A9D800FD2033 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
